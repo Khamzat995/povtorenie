@@ -1,5 +1,6 @@
-
- const getDayName = day => {
-    return day
-};
- console.log(getDayName('ssory'))
+const getDayName = function (day) {
+  if (typeof day !== 'number') {
+    console.log('err')
+  }
+}
+getDayName('khamzat')
